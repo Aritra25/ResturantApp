@@ -30,7 +30,7 @@ app.use(cookieParser());
 // }
 app.use(
   cors({
-    origin: "http://localhost:5173", // React dev URL
+    origin: "https://resturantapp-95uj.onrender.com", // React dev URL
     credentials: true,
   })
 );
